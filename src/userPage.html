@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard-Lung Hospital</title>
+    <link rel="stylesheet" href="/src/style/userPageStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <style>
+
+.bg-custom {
+  background-color: rgb(37, 42, 189) !important;
+}
+/* Custom CSS */
+.btn-contact {
+color: rgb(255, 255, 255); /* Light blue text color */
+background-color:transparent; /* White background color */
+width: 150px;
+height: 40px;
+border-radius: 20px;
+border: 1px solid rgb(33, 164, 208);
+}
+.btn-contact:hover {
+color: rgb(243, 243, 243); /* White text color on hover */
+background-color: rgb(20, 131, 200); /* Light blue background color on hover */
+}
+/*  */
+/* Custom CSS */
+.bg-dark-blue {
+  background-color: #1e79d5; /* Dark blue background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+.bg-dark-green {
+  background-color: #8d42d4; /* Dark green background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.nav-link {
+  color: white; /* White text color */
+}
+.nav-link:hover {
+  color: #00080f; /* Light gray text color on hover */
+}
+     
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-custom" id="home" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: aliceblue; "> <b>Lung Hospital</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#">About</a> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/appointment.html">Appointment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-contact btn-outline-success" type="submit" ><a href="#contact" style="color: rgb(255, 255, 255); text-decoration: none;">Contact</a></button>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container-fluid">
+            <!-- Left side (dark blue) -->
+            <div class="navbar-nav flex-grow-1 bg-dark-blue">
+                <a class="nav-link" href="/src/test.html">Test</a>
+            </div>
+            <!-- Right side (dark green) -->
+            <div class="navbar-nav flex-grow-1 bg-dark-green">
+                <a class="nav-link" href="/src/history.html">History</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section d-flex align-items-center">
+        <div>
+            
+        </div>
+      </section>
+
+      <section class="body2">
+        <section id="intro">
+            <div class="info">
+            <h1>Save Lung</h1>
+            <p>
+                Lungs are vital organs essential for our breathing and overall well-being. To ensure healthy lungs for ourselves and future generations, let's prioritize actions that reduce air pollution, avoid smoking and secondhand smoke exposure, engage in regular physical activity, and maintain a balanced diet rich in fruits and vegetables. By taking care of our lungs, we safeguard our health and contribute to a cleaner, healthier environment for all.
+              </p>
+              <a href="#content" class="button explore">Explore</a>
+            </div>
+            <div class="split-beer">
+              <img
+                class="beer"
+                src="https://previews.123rf.com/images/svetazi/svetazi1905/svetazi190500005/126647640-image-of-a-doctor-in-a-white-coat-and-lungs-above-his-hands-concept-of-healthy-lungs.jpg" />
+              
+            </div>
+          </section>
+      
+          <section id="content">
+            <!-- Cards -->
+            <div class="card">
+              <img class="card-img" src="https://static.toiimg.com/thumb/91918437.cms?width=680&height=512&imgsize=40058" />
+              <div class="title">
+                <h2>Promote Anti-Smoking Campaigns</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal1">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://nationaltoday.com/wp-content/uploads/2020/10/Healthy-Lung-1-1-1200x834.jpg" />
+              <div class="title">
+                <h2>Advocate for Clean Air</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal2">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://assets.technologynetworks.com/production/dynamic/images/content/353681/plant-virus-could-be-exploited-to-save-the-lungs-from-metastatic-cancer-353681-1280x720.webp?cb=11416903" />
+              <div class="title">
+                <h2>Encourage Regular Exercise</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal3">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://www.nidirect.gov.uk/sites/default/files/styles/nigov_full_1240_x2/public/images/news/lung-xray.jpg?itok=q9ezJANH" />
+              <div class="title">
+                <h2>Raise Awareness of Lung Diseases</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal4">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="data:image/jpeg;base64,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" />
+              <div class="title">
+                <h2>Provide Access to Healthcare</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal5">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img class="card-img" src="https://media.istockphoto.com/id/1397369862/photo/unrecognizable-female-doctor-holding-graphic-virtual-visualization-model-of-lungs-organ-in.jpg?s=612x612&w=0&k=20&c=8kUDCB2yAEP76JzEfxa50jnj5ZJAoWdWZtePUPzZqTI=" />
+              <div class="title">
+                <h2>Support Research and Innovation</h2>
+              </div>
+              <div class="more">
+                <button class="modal-open" data-modal="modal6">
+                  more<ion-icon
+                    class="open-icon"
+                    name="open-outline"
+                    aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+      
+            <!-- Modals -->
+            <div class="modal" id="modal1">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Promote Anti-Smoking Campaigns<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://static.toiimg.com/thumb/91918437.cms?width=680&height=512&imgsize=40058" alt="" />
+                  <ul>
+                    <li>
+                    Raise awareness: smoking harms lungs, quit for better health, target vulnerable groups.
+                    </li>
+                    <li>
+                        Highlight dangers: smoking causes lung damage. Encourage quitting, especially among vulnerable demographics.
+                    </li>
+                    <li>
+                        Raise awareness, promote quitting, target vulnerable groups for impact.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal2">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Advocate for Clean Air<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://nationaltoday.com/wp-content/uploads/2020/10/Healthy-Lung-1-1-1200x834.jpg" alt="" />
+                  <ul>
+                    <li>
+                        Support policies to reduce pollution, promote clean transport, transition to renewable energy for healthier air.
+                    </li>
+                    <li>
+                        Back policies cutting pollution, promote cleaner transport, shift to renewables for cleaner air.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal3">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Encourage Regular Exercise<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://assets.technologynetworks.com/production/dynamic/images/content/353681/plant-virus-could-be-exploited-to-save-the-lungs-from-metastatic-cancer-353681-1280x720.webp?cb=11416903" alt="" />
+                  <ul>
+                    <li>
+                        Encourage exercise: boosts lung function, strengthens respiratory muscles, and maintains overall lung health for better respiratory function.
+                    </li>
+                    <li>
+                        Promote exercise: enhances lung function, strengthens muscles, ensuring better overall respiratory health and lung function.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal4">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Raise Awareness of Lung Diseases<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://www.nidirect.gov.uk/sites/default/files/styles/nigov_full_1240_x2/public/images/news/lung-xray.jpg?itok=q9ezJANH" alt="" />
+                  <ul>
+                    <li>
+                        Inform about lung diseases: asthma, COPD, lung cancer causes, symptoms, prevention methods for public awareness.
+                    </li>
+                    <li>
+                        Raise awareness: inform about asthma, COPD, lung cancer causes, symptoms, prevention to educate the public on lung health.
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal5">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Provide Access to Healthcare<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="data:image/jpeg;base64,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" alt="" />
+                  <ul>
+                    <li>
+                        Advocate for healthcare access: Ensure screenings, vaccinations, treatments for lung diseases, prioritizing underserved communities to address healthcare disparities and promote lung health equity.
+                    </li>
+                    <li>
+                        Emphasize access: Screenings, vaccinations, treatments ensure equitable care, especially in underserved communities, combating lung disease disparities.                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="modal" id="modal6">
+              <div class="modal-content">
+                <div class="modal-header">
+                    Support Research and Innovation<button class="modal-close">
+                    <ion-icon class="close-icon" name="close-outline">Close</ion-icon>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://media.istockphoto.com/id/1397369862/photo/unrecognizable-female-doctor-holding-graphic-virtual-visualization-model-of-lungs-organ-in.jpg?s=612x612&w=0&k=20&c=8kUDCB2yAEP76JzEfxa50jnj5ZJAoWdWZtePUPzZqTI=" alt="" />
+                  <ul>
+                    <li>
+                        Invest in lung disease research: Develop new treatments, technologies for better prevention, management.                    </li>
+                    <li>
+                        Promote innovation: Invest in research for advanced treatments, technologies to improve prevention, diagnosis, and management of lung diseases. </li>                   </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="button close-btn modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <footer>
+            <p>
+                Join us in preserving lung health! Don't miss the chance to enjoy Oktoberfest, filled with wholesome fun, great food, and camaraderie."
+            </p>
+          </footer>
+      </section>
+
+      <section class="gallery" id="gallery">
+
+        <div class="section-title" style="text-align: center;">
+          <h2 style="margin:50px 0px 50px 0px; color:rgb(81, 122, 168);" >Gallery</h2>
+      </div>
+        <div class="image-gallery">
+          <!-- Replace 'image-url' with the actual URLs of your lung images -->
+          <div class="image-item">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgcBAP/EAEEQAAIBAwMBBQUFBQYGAwEAAAECAwAEEQUSITETIkFRYQYycYGRFEKhwdEjJDNisVJygrLh8AcVNEOiwlOS8Rb/xAAaAQADAQEBAQAAAAAAAAAAAAADBAUCAQYA/8QAJxEAAgICAgICAQQDAAAAAAAAAAECAwQREiEiMRNBBTJRcaEjQmH/2gAMAwEAAhEDEQA/AObKKsVa+A5qwCqANs+VeamFr1RU1WvgbZ4q1YFr0LVgWtaMNkVWrY1r5Vq1FrS9g5Poe+zM7JctGWba6Er3uBg56VrNOf8AaiP+Y/Q81hbCRoLhJV6qwP61sLS5S3uo5Tnb558DTL7iSrPG0IUyx69cmUq1ltV9jpu73A4z08aA1mSZojuuDH3WyISQpbgE9OehHwpjrgaG3Ett3y5zn3hmqLK3i1KwgkliCXCL30zz1OPrisR0vYdp9SRk5xvmJS6IC543H5Hp160fp7szK0d1ImIyAEdh4jHUUXeaRCJf2iRDHIVZtmMfLmmNjpEDRqrpGRwQytwfQ0TxS2bnPxC7q4kWxmMXYm4RWMLGPd3h1PQckYP1rzTzLHocInZjNtG4k5zk5OT8KWS3U0mrdlbRhbfKhX/tcDn8qaak0dpai2H3j08h/vihNJtaBSXCHYs1CYx2U8mcZUt1+QrDz5ZiSzFj13HNafX5z2KQ+Lncw8gOgrNSjmt2PrR9iL3IDZarK0Sy1BlpZlJMGZarYUQy1BlrOjaYMVqDCiCKrIrjCJg5FQIq9hUMVw1suUVaBUUFWqtdBtnyirVWvlWrVFaSBtniirFWvVWrVWtA3IiFq1VqSrVirXUgcpE4RWis3VrKFZO6ckKaSQRk8AGj7kNFpqSeTmmK+uydd5S0MmaWKJonjLwtyVB6eqmltj9ps5muLVjJHP3QrjH4HxyKjpuvLGRHcd+LPQ9RWij0+0nhW5jzsYg9cgk+nh/+0K1rW0P4e4PjauhTNqltPIWls13k4ck+P1qyXUJZrb7PaQiGM5jzkDk+XlxTR7K1aZmIU58x0q2PTbeaOONCPePT+lLu6b6KqjSlvRn9NR7NmijDSXAHLNnCceGepowgoRJcHLH+0eWNe6pf2mkl4o0BmJyQWyQfU/78KSW1+19eqWbPe6Gm62kQspTtblrSPtXO+7m48R/SlMi804v4mE0mc8Mc0tkTBrk/ZzHktdAbLVbLRRWq2WgjqkCstVsKJZaqZa4ETBiKrYUQwxVTCshEwdhVZFEMKrI5rgRMuUVcq1BRVyCtIE2SUVaq14i81cq1oG2fKtWqteqtXRpXUtgJSSPETNERx1ZFD6UcEjt0zcY9F8T+lFUBSy36RG3tursdqjqTUtXcNowcDuhjgDypfdXzTkIDhR0UdBRGoNnRmTy5oq1oGq5KUXL9zISXexyRzitj7NRuEabtI8BN2xWJZ/kDwPU+Vc+dZJ7pIIgC8jhQPicVtPZaxhtZYr6cRyCE5SNWO7OfHy8ePGke3s9HHUdbNNJqiJJl4iS/j58fGrLqc3VpJCSIgI8jkhR8cf1pbNJCGVosKh6A+FW3otb2wks3j77YbteeCAcZHjS8G3PQ9bCKr3oxGsSG2udnc567WyPkaM9mpe0v4+R72aS63ZSWj9r+zZNwQtG5YZwSOfkfwpn7JN++I3lzTdbfMk5iTqbRsLtVuZpFGBMCePMfrSqaFl4ccjipanMyXRkQ9TV9veRXakTnDdN/6+dNSSfRDjCUEmhW8eOcVQ603ubZkIBAx4YOc0DJFgnigyi0NV2pgLLVTLRbpVDLQxmMkDOtUstEuKqcVwMmDEVWRVzCqyKywqZegohFquNeRxRcMeSABkngAVuMWxeySS2z5E5oiOL0pna6NOyh59sC/wA5yfp+tFGHTLQAyO8h8edo/CjqrQhLJT6itiuOHxxR1raPIMopI88cfWrItQhdyum6c07jr2cbSMPX0HrU5bjV2ODp90mP7MJP4CtKMQUldL60TYJar3cGXz8BSi6aaVskmmYil2hrlJIyenaKV/rXjpH6Vvr6OQag/wDokSMoMnk0XeygWBUnnHSjjZbsYQnPTFMR7NoYe0vyMKM9n90D+Y/p+NDk9IaT5tHLbi2lkk/ZMseDw7HaAfjWo9lFLSyz6q/ZtF3JVwT26MuAWxkEZ43CjNQn02JJUg0qB2PdYrEFB8j15+Yq3RLO0u7C9lLtEpxEYwwBJyG7uT1wD054PSluK3vZVjY+PaCHiszDCbYOkOOADnxqy6i06dbm2hmaG7kAR5euQOSCcd0Y6nwxV32GNIbZY2kKKnGVOTz8KkNLt21OYrPIk0iNH3yAuWXHGSOenSl6Yt2SKWVNLHh7ObXcN3dbd4WO3VisEedu4ear+Z6029nT2Mwzx4c0fbXNlb3kg+wrc8le0kBYnwJ8z19PXzrQ6bp2l6sn7tbRWrRAEdkmxh6kDg/jTFaUWSchuUWmvYnvDvc0NHG6Nlea0F9os1rIFde0U8rIo4P6VQLdI/exmml2THLgtELO4OzspV3IeqmrprIyDdAC6+XiK8KIQApG49AOpqJ/5hA37O0uT69i2Prit9a0xXi5Pw9gEsOCQQQfI8ULJFjnFPWvr0J+9aZMyAZLtASAPPOOKpS40m496MoT4o5H+/pQ+CYVTtj+pGfePjIHFDutaiTR4Zxm0ugx/syj8x+lJ76ymtXKzxso8CeQfgRway6mHryot6FDCqiOaLkTHgfpQ7LzQJR0PxkM9PspbuURwjvHk58B5n0rRg2ujx/su/PjmRuSPh5Co4j0qy7JMGQjMj+LHy+ArN6hdmSU+Ipp6giYoyyJbb6C77WZpCQr8UsSSe8uUhiO6SRtozQsgNO/ZnS5p547rtOxjhbeHxnkfh5fHmguTkx344VR6RKyspwGtmxcIx3dgzPGSwH3SOAfiKc6dDBCwdoLiMDwa5Viv/gKeQR6arI8crhjyoIzzQuo6ZczSO9sI1DHJBcBT6j9KMkkITulN6C4NYjduxSfaD1EoChvTrzQ+pRWAY9ops5vONeD8VGB9MVmdRsbu2j3yIrJnBaJwwB9fKnPsZp11qib7mRnskJjjifvb29D1AHocUKyxRY5Rht+RPTdPup72I2l5G67uMbgx+X+uK30OmxbP32XJIwVQ9M+v+/nVOn2EGnxt2UYWST3iDnA8AK8nlb7mDSVlzb6L1GBCWtoou/ZvTLpdjbgR7jPtbH0AP0NJ4dBWOe6RJshoSm+RTvXDD72BuHB+Hh1rSWgMqEkHj1pR7TySiWziibaXDZ56kY/0rtUtvRnLx1GPiKptIA7MCVTs4BK/qKJi0IR3F5Ktwsnao4aIggDK4+dEsXaRQSMg44+FVxw3MusRK8gEZcs2087Rzj8CPnWq1ptmstTlCENk7D2WtEgilu5Cx2gpGYwu3ywuMLjyIPypva6bYRA7RJkjGSynA+gqyb94SRhztIIwf8AfrS9N2eDj4mguwahhwlDTBfabSbqaBPss0XZI24k5GPjjp+NZmGCBJdt5dMzDgpEpGf8R/St9A/HPPnxSnVtBheCV7PZBIf4UpUNsPkc+H9KNVfr2T8rCjBdLoWvcw2MIkhEdtG3T+0/z6tQF3c295ER+0YnwGE/I/jWX/fpNQaCUSz3auY2DNk5B5GfIfSnljpGoFgQYfUiYEinYTTR5+/G+J7TF8tpsZpoLZ0MRB7eW4LAN4YVFUk/PHnSS6tbi3j+0O7upfDNtIOT+tdIaC0t4FhuWZsnJ245b1pHr+mx3dr2Vg594OVPieg58Op/CvpR62j6nI29NGVtNQlifIduK0On62sqdjcjejcFW5U/Ksc6srcgj5VfE5TDViM2uhm3HhNbNHq2koIvtNmd0PV08Y/UeYrOuhDc5J9a0ekaiRgMePrXt9oT3FwZbAwiJudrybdp8QPSiuKkKwtdD4yA9XuyzNz40pgjM8+POoX0/fPXGaL9nsTXiqASSelCb5S0NqCrq6PJ7cIwBFaoW4j9mbHYSp3ZYjxBy3/sfrSq/h/eunA4pnqk4ttMitFPuYB+SgURR0xedjnFAH21reZRHlgDgj400N9DDHPD9lllKMAxLkdfEUt0C1S6vHnuDtt7YdrKx6ceFDSzm7uGdFKh5C3I5I8M/Ktcl9nyo5ySSNJBCLu2umgtnS37FkPGWYkY+ZzWo9itNl0vR1F2NpRm7Eng4Y55HnkmqvZO2P8Ay2LGA0udm7kKPh8OaeXbNjH3F4GPKp989vouYNO+vooupOe7xS653hzjnPHwoguHlGTQtxIEfbluBz8aUei/XHTSCNMm2OUyOR50PrMbyiFFGVAYd0d4HK4+XXNUK2yXdGgYdc+tMr65ZYUkWIsGddxyRtHOTx5Yr6p6YHLqbXQikef7RsUFhvPh4ZprpFpcLdTzTuoyG7NRz5deKUte4kClQD4kn/StFY3Cq4zsK7CxG4kgeGKLXL2By1JcNIFs98U8zv8AwtuMnxNVH3s9c+Vez3QkJAQAA8DwqkPkDHXyHNLpooRi29sOgdozgn5U1hEU1s0LEDf4+R8KTpiSPu4O0e8TRUEgXG097woqkhW6tTWjHPpF5FrOozTw4muFYJgdxQGHGfPA6+NDR3tvbyt+5u0yI2/vYUfAV0O7RniWZtu3GHGOevBz5f6dMVzP2kje11OTYe9nx8VI6flVDHsXpnm8yhzk0yi7vQtvG9sjok5PvtuxtNEaL+83gbPPZvlc9e6RVNrHDqWk3lsncurXM6IT1T72KD0G8NvfRt55U/MU1vkS3Vpa+xfq8CjUroY47eTb/d3Ej8CKouLXbbB/CnWswBrsyqP4iow/+oH5VG9hCaQXI4GMkeFC4e2G+Z9CKzmMcg54rT2l3mHnB+NYvth22FPjTe1n/Zd5iK5XM1kU8kKNQBwceFK4tTl0+5juInIaNg2BT2+j7hz41lb33ugpa1uPaH6UprTOtMomnikGCjlT8jyaV6lKZrhxyeelW+yF19t9nbeZjl7aNoj8RwM/I5ry3iVrsPLns4wXfHkBmnYy5QTJEYuM3F/R5JenTRHYtEk0TKHuo36MeqgHwIHP+KoiP7ZdpHpsD7mPdjVt3zz5Uumd5ZZJpMdpISzeWSa2n/DaENFeSg7n3rGAfUZpectFOiOvM13snY3Gm6XtvZRIQcRgD3F64B8eavupjgleSfGiroCKNUz7q4pQ0kskuxCRxk+lT5SPQY1aUeRJGDOCy4YHmg7iN2mcnoTwcVfPqUYUJEoYL9/z9cVQtz2jYOQScbkOPqKA2h+EZry0QSJ2YFYwR5sePnRsska6bKCM7SC23kDwNVcEd6RiB1J6VKACZZYoMjfGU3nBrsHt6OWtuPJ/QqEKSS5CqfvFfEeuKa2RSS1yoAZsgHGDgcfrSNNIukMl28+2ZhtQgdB5/GnNnHJ9jhW4cdqsYy4HvGmLKnXHkmKwya7npP0UF92QqoMeHia+HXbkA+lXSRROe0fIcj30HX44qlYVU8TBuPE/lSrl32Pxkgi2H7cMcnHveVFtO2/gKAB1HjQXaiFTgZOcEmoLMScbvXBrakjDhyezQ2UySJ2bYIYYIPQ1zf2t0nUbS9muJ27eIvzKRjaPAEeHFbiykOKK1eBJIA5wwkXY2R4YpimbTJGZDg9pHKE1WPTxDJa2qm4Dd6VmO7YeoABwCRnnmhryBbW83QtuiYB43x7ynkGgZl2TSDJbDkc+POKZxAT6QqHl7R9vrsbJX6Hd+FUa3sgXw4hzHtoIHPJKlPocj/NWc9t9Sls47KxjOA4Mki/gPz+laPTVL2zx+KEMP6fnXPPbG9F77SXBU5jhxCnwXr+JNcyJ8Y6/cBi1/Jf/AMXZ9Zu0r5NPbdcx5NJdJXJrQwxZjHIFDq9Dd7WyOqpsXOOorGahwx+Nbf2iZRwPCsPfEHcc9Kxke9G8Ntx2za/8O5dmk3dsxw08nbIPNV7pP1p1cDsbJ/OWTZn+Ud4/+tZHQro6b7TadbsRsVFtZQvPLjnH+Iqa2+sxbZI4sYESjjzJ5P6Uah/49COTHjkb/fsz5Q9MV1H2a0+DSxZ2sat2sidrK4HvYwefr0rm2xutdd9n5GuNJW7dGjdkVdjjBGBQLipjRb4olqEpYMfM0ked4jlZCOMEEdaY3snf2/ex0pTKXc4VOfHwx9anTkkj1OPBcdMpbbgsMhc4PHFFQQMiJIx7zDK7vLxOPhVlnZzRKJ5JgifdQ4wfjmq7qQdncP2m+Rl2hscKPIUrKaQWVjk+MSud+1C7GGzGFHl50RpzFJQgPB6mlUMqe6zcjOMAcCjbW4eK2up4ocSRRMy97OT4Zx60amSclo7fHhWzITXt6CRFJcuMkZyeflWm0m5d9MtpTv34dSGPJwSKzr6/cKC08aq58F3inXs9qb39pcLcRKv2d+AucFCOOfjmrGXH/Dsi4E5O3TjoMtp3gcssm0Hz8KZSLJLB2qBNvmuMZpA06M2MMvltOaMhvTHbMEc7Q+du0c1CU4yfRdtofTj7CUl7RihwHBx8anhDkAqrDrQkxjkhW5XJA4OKlb3Kn/qFUjoH8RWozWzLg9bQ2tFCFcyLzTOZw1hMh+6u4Y56UjiJSRgRkDo+evrT7Tjkr94YwTTUGn6J2XDcdnK/a3S4bHUUlgXbFcL2m3PQ+NB6OB9r7A+5PGYj8eq/iB9ade3Du2qiBkIS3UgMeN+TnikdurCRWQ4cEEHyPh+VVKfR5bK9DTTmW2WWWTiNI2MnpxXIJDI11K0/8UuS/wDezz+Oa6h7b3P2HQJniJVr2RAhHgD3j+CkVzjUV/fu0Aws6LKPXPX8QaHlPckjP46L1Kb+xtowG6tWkHcXHlWS0hstit7aoHgQgeFGoW0DzW4syGt3O+Q/HzpFZxfaNUto8DBkB+S945+lG6lJuY+lC6Wdr3U//wAcBCnyZuB+dLWPlIerjwgFaNG177T2bgbi97G/+HeD/QV1DWU7Sd5Ou4k9K517JYhvRdnjs5I41PkXcD/Lurpc5V8p601Ql2SvyMmrofwLtGsVutVt45RmPJZh6AZrpME3aaZA8Y2pICwWsh7NxBNWXd4owH0ra3Ea29jDFEO6qYGfClMn2W/x75NCK7bceuPjQMk7qoIkk97JCsR/SibgFvfOPiKFVuzciBe/4u/QfKpc5NHqopcSZWa4drm5OwKCceS1TeugsjtyoOMA9eancSyzIIS5ZPekY9MUFqs0Zt4ShzuyVGfAUlbOK9hKotySAkwrD3zg8Y4rQR2kNxotw0w7NGdcbfE7gevPpWet90kgVU3Z8zmn2rW8sns3NbQKhdZI/EjxyeeoPr6UzgdzMflpap16M3qGmaduLlrk7m6gOPl7lWaAun21/HbwXE++Q9mY2VsNux1yoHGM0Ram9NvbpcQRTBiyMzyd446HgV9piW5kMktq1sQ3ecNvAwRj4ZNejsXKvTPIVXKFn6v7L9Ts3s5mSWMjnCkcZoeMoEcZ6joR0rXe0SEkIVR1xyDzWXnhBjxbDJHvITyP1rzN0Ywk2e2xb/krTkEaPKqytEeVYf2epFetGIpAwXuHlc9D6UFaGRp0McZBVhk54HnTmOQBpIiquozhDx1GQPxrFc19HLfGbaPoTlgu7O3jr60709zxtyMHpWfh75BCCMf2BT/SyeAemaeqbYllR8TPe20Udw90dhE9s6sT5hhWVtoe8OPSuhe1lvGsN9MBl5Y0B+WMVjoIxGwY1Zxl0eI/IT1vQl/4kIP/AOb0zjvLdEN8NjEfnWAu136faycZikaI8eB7w+n510f2yUXGhmHrJuMqf4ASf/HNc7jG+xvYvFQJR6bTyfpQ715M1+Ok/hR9YSlHGK2en3pW2ALYrC2rY21obWX9kM19RPQfJrUhJfPlm+NeW+Y9LkbxmlC581XnH1qq6b3qMuIjHFaWygl1QOy/zN4fTH1oUe5hn1FBtuDBpdqB78szTEDxC8D8QfrXSb0YkEi+6eawjQZv1gUd2BFiHrgcmtzafttNiXOTGuxs+Y/2Pxp2la2R89+UWMPZ+UC+VzztViPoa26yC702CbGC6Bttc90mQWmpQPJ7gbvD0PH510MosGnQInubcUnkPUiz+P8Aa0Ip41eXDk9mOpPWl88u9mCExIOT54phdyMHIzuA8DSuZGf3V69Bzmp1y2erpW1tgVzIbluzQsqk42j86nqkMbInZAMYFwwHgOuavitHeRVZlGW5wPzou6t1W6V7bnI2hl53elIuhyYw7IwktC3SYt0wkI7qDcfI48KK1pkHs9em6untx2kZEqcd7cAB9TTA27QoE2jjliBwD4Cvp7iC30i5lu498YKgqVBzkjHB4607jV8ZoRzbHZW5JbOfafqN1Dp+J7ntJYphwpJxnzomwEje0MyS30jlpVFtEjHDE4yCOnQ07+1+z7oxWxEfaYz2ccY6eY6Z+VGaNaadPrUE9vcEyRKe48UYJIXGchc/TFWZy1Webg92dw0MdbffMRnGD0pK4GcnqPEcGnOowSySkhW5PxzS2SzuPCIn5V56zk5PZ67HlGNaTZ52RvVELyEMBnevAx618FG+SVGk3b0GwjBJANXQ/aIoJIhGQCB93qc1Xfp341C4ZgHbw5IrPxfZ8mnLSDI0KuODtYblJ+OMU601cjGMUlgmIVUIwQBg9aa2DNvBJOafqa4iuQnrso9qp1KXMBHuRo2fUmsWzln2j5Vrvbd0SMAfxJtuT6CspaRZfLA1VxfR4f8AIPjtib2rk7CfSS3KguXHmrbR/TNYmOE2uqSWr88vCfUdPx4rX+1g7e5Z+sca7Fx4Yz/rWZ1tGE8F4mNzxqxx4MvBH4D61y1bbN4T1SkIYgY32nqpwad2z/shk0u1GNY9QfYcpIBKp8wwyKvic7OKXj0yhLUkmRt7R76+jgQAlmyc9APEn5Uz0sC81JrwqRGCZcH7qqO79AAKPsbL/l/s7PqEy7bm/wD3e2Gf+2eWb5gED4+tV2m22spHzzIRGP6miwj9gZz+kHaau0mV+GYlj8TWm0UmQyLwA6jHq3h9eR9Ky1pIZHAFOZ7hrNLNUOH3dsfkcAf5vpTdXZJy03/I5YBpB/eFdDtnEunIpOWXK1gb7blZk/hvh1x681qdPvkt3Alz2UyqQQOhPj+VK5MSj+NuSS2WTWxMhAxk+PhVJsWjO1FLMepPjTS5urW1JD5ZgMnA6UpvNeVE7kK48u0pP43L0j0Mc1b0mffYA/8AGYr6KaNtRb267Yk6+JrK3ntf2HWwDHHA7U/pQLe3Uir3dMjB/mmP6Vh0z9JBZWqa7ZvGdJONgpR7Rwi4tDYxoH3APMgJB2dOPXP9Kyl17YajHam4uVitoDxHHEu6WVvIE9B64oVfaBbjS9Qmi7GW7jjDSRyK524I3EnIyM9MeVbrp4y8ha+b4+BZcaHbvIP3e6CqcYEqAD18c0z0ywexuY7yyt27aIHeZW95ccjjjJ8OnwNYpdakmjQutohBzt2uB/npn7Pa1LJqUsc0VqsCwu0kgjfIUDGeWI8fKqM0nHRMhbbGXbOoWN/BdW4ltGDjJ3g8Mh8mHgelELege8APSuQJr1vcanItrcyWkmQILqNiA2B7j56rknbnOKbwe1OsWshhvhFcY69qm1j8xx+FTZUP/UsQaf6jpa3MbdVHPjSfVI45L1gYwVIBDAc0msvaa0uNqzxTWzH7yncv609int7hFDXKkdVOcH6Vl1v9g8JRrlyTK47MqBtO5PFT1pjpsXe357o8/E15bxMHG1lYfysDTK3gKjLDah56dK7x0YuyNp9mS9sT2uoJkEKOB9KUAFLeSQYyqkJnxPh+vypl7TTCfUECZxyfxrO+0V0bP7JDGe8rdsw88cAf5qqY68Txn5B8nxQruNpUo31pFfWwlsHTA3Qybl9Fbr+Ip5q6hXLxHKMAyn0PI/AilNtOrStE5GJVKc+fhX1mgmP62jP3lu8tglyoyts/YuRyQDypPp1A/umqouF4rSaDFA2oS2F3j7PfxGF/5W6o3xBz9aR39nNpl3JZ3WFljOCTxuHgR6GlpRaZQjNNaHXtZqy3eopDGf2NsuxB6+J/AfSlFxc5FtGpz3e0P+I/6V9qNpHHeyWwlPaoB3iRtLEA/HGaqkjP/McEYO1OPLgVuxNdGYcddGj0SPMikgmiNXmzqcq5/h7Yx/hHP45or2eiClXcZVRk/KkEsxmleRjksxY/M0zDxiTpLna9/RutPmE+j25JyVTb8Mcf0ArTaMN8Fpkf9OOcnrWH9m5d2kyLn+HKT9QP0rT6Zct9osOTtIYH+ZsdK5YtoWrk4ScQ/UWlZ2Yd4Zz3T41l9QuJYj/DdpX91dp4Gevz8K02qLEFcl9uODlT1+QNZ2dd65EwdsZxuxx1rEYbQ7VkSEsoPZqHJaUklj5V9FBHBC93cg9mnI83+FFxwdozNJxCnedvOk+r3L3rhIsiHoqeLY/oK1JJIchfOTFt1cTX96lxcthQe6o8AOcKPL186aez9nJJDeywwtbwvCEWYxM+/LrkcdeAfSkksoilfYQWWPrgYX4fWm2k38l/o19ZlHFylsr71kb9oEIxx4Hlvjn5UCKWxm2ybh4vRZcaC7lCtxGoBwuLVxx8KMsNKli7dRKsrSQSIUFq67u6cDd060ijd0hQSLMWB94MwPzphobSw6lLeTB+yggaXaScHA6DzPj8qalrj6JyVq/2/oSTQLv7NozbTDgqwwp+XhT3R7p76H7HeczRj9m7dcf2T+tKru6eaaS7uh2Ns57kT5Y90YG3xJwOT0znJ5xX0OoQblls4JHkQ913bGD5FR+tKpLZR+SbiaONTBLscYweVI/pTKO4eGXlZJIH5GBnb8PWl2nXR1aBi6hLtPuqMAgeXpTCw3YILBAPey2KNxUgMsya6kPLNJTjaD5qw4HxzT4GWezMbyNgMD73h4jNZywCl0ia5jJblB3jn8POmWqTdjpT9luAZ05HHORQ5VoStypMAvWDakznONox8qxvtNc9rq0gzxGFT6Dn8c1qZpTLqAT0AaufahcdtfTy5zvlZvxpmPihOD+W1t/Q6yLnRLeQdVUxn5Hj8MVkr+RraTePusGHxFanQX7fTbqA/wDbYOPgwx+QrPa9Ft/OhXetjeJ1NwYPc3Oy5ZkbGGDKw+orbxz6frNvDd3aI0xQK+5ASCK5/LEpSJpmIjWCNTt6lsUebK6MFvJYxvJHJHubv+62SMcfAH51iEXL2Mz1s//Z" alt="Lung Image 1">
+          </div>
+          <div class="image-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTWu0ZU0nDW5ddOaBCaM1wnB8ptVKm3sTCg&s" alt="Lung Image 2">
+          </div>
+          <div class="image-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6PdLSpWlojHth-m5gI-Uwot18SVVXmp4BcQ&s" alt="Lung Image 3">
+          </div>
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4muKgQqXnsaQMPxAUDJGSX6SdNeKpkgl0g&s" alt="Lung Image 3">
+          </div>
+          <div class="image-item">
+            <img src="https://i.guim.co.uk/img/media/8078336c339e14fa3e5193e12013d06703b7f53c/0_3_6045_3631/master/6045.jpg?width=620&quality=85&auto=format&fit=max&s=f46c2ba2f97719cd73072b6875df5056" alt="Lung Image 3">
+          </div>
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSicUKudhp8Nwa760oTuSqNnoR6PCqP1W1anw&s" alt="Lung Image 3">
+          </div>
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5XtvPBVHA3b20CxhRDpAu-mgt6BCz2sFgdA&s" alt="Lung Image 3">
+          </div>
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxRFWJlKgKAZoiY_brD7XJd9WzN6gce61Jw&s" alt="Lung Image 3">
+          </div>
+
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbn26RqfmyFHF2LBPAtj7NAhAU0-h-osZhHSx7W3XceG9vQzjx9za2G8NQAHxbyiLoUs&usqp=CAU" alt="Lung Image 3">
+          </div>
+
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkzMwe6yOggJzyrBcBOhsFMrXWmXC--m4xPw&s" alt="Lung Image 3">
+          </div>
+
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxr6vVCVHixsJLu6DqWr60aQ27ptYzsIfJBA&s" alt="Lung Image 3">
+          </div>
+
+          <div class="image-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqnNijr1RoVo4mmOVdywDt0KraIzUZ3JoR0g&s" alt="Lung Image 3">
+          </div>
+          <!-- Add more image items as needed -->
+      </div>
+      </section>
+
+     <!--  -->
+      <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+            <div class="section-title" style="text-align: center;">
+                <h2>Contact</h2>
+                <p>At Lung Hospital, we're dedicated to serving you. Whether you have medical inquiries, ideas for collaboration, or simply wish to get in touch, your questions are important to us. Feel free to reach out using the contact details provided below, and let's begin a dialogue. We eagerly await your communication.</p>
+            </div>
+            
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+  
+            <div class="col-lg-6">
+  
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="info-box">
+                    <h3>Our Address</h3>
+                    <p>A108 Colombo-7, Sri Lanka, SL 547022</p>
+                    <a href="https://maps.google.com?q=A108+Colombo-7,+Sri+Lanka,+SL+547022" target="_blank" style="color: rgb(4,9,150); text-decoration: none;">Open Map</a>
+  
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <h3>Email Us</h3>
+                    <a href="mailto:demo.text@gmail.com" style="color: rgb(4,9,150); text-decoration: none;"><b>demo.text@gmail.com</b></a><br>
+
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <h3>Call Us</h3>
+                    <a href="tel:+9488877766" style="color: rgb(4,9,150); text-decoration: none;"><b>+94 88877766</b></a><br>
+                </div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-6">
+              <form action="" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Contact Section -->
+  
+    </main><!-- End #main -->
+  
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Lung Hospital<span>.</span></h3>
+            <p>
+              517 Main Street <br>
+              Colombo-07<br>
+              Sri Lanka. <br><br>
+              <strong>Phone:</strong> <a href="tel:+9488877766"style="color: rgb(4, 9, 150);"><b>+94 88877766</b></a><br>
+              <strong>Email:</strong> <a href="mailto:demo.text@gmail.com" style="color: rgb(4, 9, 150);"><b>demo.text@gmail.com</b></a><br>
+  
+            </p>
+          </div>
+  
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="garrery.html">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Pulmonary Function Testing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Respiratory Therapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Thoracic Surgery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sleep Medicine</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Subscribe to Our Newsletter</h4>
+            <p>Stay updated with our latest news and promotions.</p>
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter your email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="container d-md-flex py-4">
+  
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; 2024 Lung. All Rights Reserved
+        </div>
+        <div class="credits">
+          Developed by <a href="https://github.com/RachinduAbeysekara" target="_blank" style="color: rgb(4, 9, 150,);"><b>Rachindu</b></a>
+        </div>
+      </div>
+     
+    </div>
+  </footer><!-- End Footer -->
+
+      
+      <script>
+        const modalOpenBtns = document.querySelectorAll(".modal-open");
+const modalCloseBtns = document.querySelectorAll(".modal-close");
+const body = document.querySelector("body");
+
+modalOpenBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    let modal = btn.getAttribute("data-modal");
+    document.getElementById(modal).style.display = "block";
+    body.classList.add("prevent-background-scroll");
+  });
+});
+
+modalCloseBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    let modal = (btn.closest(".modal").style.display = "none");
+    body.classList.remove("prevent-background-scroll");
+  });
+});
+
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("modal")) {
+    e.target.style.display = "none";
+    body.classList.remove("prevent-background-scroll");
+  }
+});
+
+      </script>
+</body>
+</html>

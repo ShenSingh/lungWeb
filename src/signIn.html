@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In-Lung Hospital</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom CSS for the sign-up page -->
+  <style>
+    .body{
+    }
+    .half {
+      background-color:white;
+      
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .bg {
+      flex: 1;
+      background-size: cover;
+      background-position: center;
+    }
+    .contents {
+      
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -50px;
+    }
+    .form-block {
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+      margin-bottom: 150px;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="half">
+    <div class="bg order-1 order-md-1" style="background-image: url('image/singInPageImg.png');"></div>
+    <div class="contents order-1 order-md-1">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-8">
+            <div class="form-block">
+              <div class="text-center mb-5">
+                <h3>Login<strong></strong></h3>
+              </div>
+              <form action="#" method="post" id="signInForm">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="userName">Username</label>
+                      <input type="text" class="form-control" placeholder="Your Username" id="userName">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <div class="input-group">
+                        <input type="password" class="form-control" placeholder="Your Password" id="password">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="showPasswordBtn">
+                            <i class="far fa-eye"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+  <script>
+    document.getElementById("signInForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+
+      // 
+      window.location.href = "userPage.html";
+    });
+  </script>
+</body>
+</html>
